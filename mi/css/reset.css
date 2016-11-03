@@ -1,0 +1,47 @@
+/*重置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body {  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var,i { font-style:normal; font-weight:normal;}
+a {  text-decoration:none; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+textarea{resize: none;overflow: auto;}
+a:hover{color:#ff6700;text-decoration:none}
+input{outline: none;}
+button{outline: none;}
+/*公共类*/
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+.container{width:1226px;margin: 0 auto;position: relative;}
+.boxshadow{box-shadow: 0 8px 16px rgba(0,0,0,0.18)}
+.span16{width: 978px; }
+.span4{width: 244px;}
+.h2{display: inline-block;font-size: 22px;font-weight:200;height: 58px;line-height: 58px;}
+.author{font-size: 12px;color: #b0b0b0;}
+/*.reviewblack a{font-size: 14px;line-height: 24px;}*/
+/*.reviewblack a:hover{color: #333;}*/
+.plice{color:#ff6700; white-space: nowrap ;font-size: 13px;}
+/*顶部导航*/
+.top-nav-bar a{color:#b0b0b0;}
+.top-nav-bar a:hover{color:white;text-decoration:none}
+.top-nav-bar{width: 100%;height: 40px;background: #333;color:#424242; }
+.top-nav{height: 40px;font-size:12px; }
+.top-nav .left li{float: left;line-height: 40px;}
+.top-nav .left span{margin: 0 8px;}
+.top-nav .right li{float: right;line-height: 40px;}
+.top-nav .right span{margin: 0 6px;}
+#gwc-bar{position: relative;}
+#gwc-bar>a{height:40px;width: 120px;line-height: 40px;background: #424242;text-align: center;}
+.fa{font-size: 17px;}
+#gwc{margin-left: 25px;}
+#gwc span{font-size: 17px}
+.gwc-tab{border: 1px solid #e0e0e0; position: absolute;width: 318px;height: 100px;background: white;box-shadow: 0 2px 2px rgba(0,0,0,0.15);left: 907px;top:40px;display: none;text-align: center;line-height: 100px;z-index: 10;}
+
+
+
